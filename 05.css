@@ -1,0 +1,2598 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    php{
+        font-size: 100%; 
+    }
+  
+  body {
+    font-size: 100%;
+    scroll-behavior: smooth;
+  }
+
+
+  body{font-size: 100%;}
+
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+
+img{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+.carta{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+#tercera h2{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+#tercera .mision p{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 65% cover 50%;
+    animation-fill-mode: both;
+}
+
+#tercera .escudo p{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 65% cover 50%;
+    animation-fill-mode: both;
+}
+
+.container-info .img-container2{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+
+
+.slider{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 15% cover 50%;
+    animation-fill-mode: both;
+}
+
+:root {
+    --bg: #0d0d0d;
+    --btm: #8c3616;
+    --hvr1: #a68f65;
+    --hvr2: #788abf;
+    --hvr3: #f5f5f5;
+    --parra: 500;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.color-acento3{
+    color: var(--hvr2);
+}
+
+
+body {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 2.5em;}
+h2{font-size: 2.2em;}
+h3{font-size: 1.6em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.20em;
+    padding: 5px 10px;
+
+    border: none;
+    color:#ffffff;
+    background: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover{
+    color: var(--hvr2);
+    transform: scale(1.1);
+    scroll-behavior: smooth;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid var(--hvr2);
+    transition: 0.5s ease-in-out;
+  
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--hvr2);
+    text-decoration: none;
+    user-select: none;
+}
+
+header{
+    background-color: #0d0d0dbd;
+    backdrop-filter: blur(3px);
+    display: flex;
+    align-items: initial;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 6px 16px rgba(24, 7, 4, 0.5);
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.39);
+}
+
+
+header .container{
+    background-size: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin: 0 20px;
+    padding: 0;
+    
+}
+
+header .logo{
+    margin-left: 20px;
+    text-align: initial;
+}
+
+header .logo1{
+    margin-left: 50px;
+    text-align: initial;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+
+
+
+#hero{
+    min-height: 100vh;
+    object-fit: cover;
+    background-image: linear-gradient(0deg, rgba(18, 11, 11, 0.682), rgba(21, 59, 113, 0.216)), url(img/Barcoserio-picaai.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+} */
+
+#hero .container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+/* #hero .container-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    opacity: 0.6;
+    mix-blend-mode: overlay;
+} */
+
+
+
+#hero h1{
+    width: 65%;
+    margin-top: 100px;
+    line-height: 1.3;
+    color: white;
+    text-shadow: #000000 0px 0px 10px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Aplicamos la animación al h2 */
+
+  #hero #cita{
+    animation: fadeInDown 1s ease-out;
+  }
+
+  #hero #simon {
+    animation: fadeInDown 1s ease-out;
+  }
+
+#hero p {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: lorem ipsum;
+    font-style: italic;
+    color: var(--hvr3);
+    padding-top: 10px;
+    padding-left: 260px;
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#hero .text p{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    font-weight: var(--parra);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#hero .control{
+    font-size: 1.25em;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border : 2px solid rgb(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+}
+
+.control::placeholder {
+    color: #858789;
+}
+
+.control:hover{
+    color:var(--hvr2);
+}
+.control:focus{
+    background-color: rgb(255, 255, 255);
+    color:var(--hvr2);
+}
+
+.control:focus::placeholder {
+    color:var(--hvr2);
+}
+
+.controls{
+    padding: 18px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--btm);
+    color: var(--hvr3);
+    font-weight: bold;
+    border: none;
+    box-shadow: var(--bg) 0 4px 8px;
+    margin-top: 20px;
+}
+
+.controls:hover {
+    background-color: var(--hvr2);
+    color: var(--bg);
+    transform: scale(1.1);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, transform 0.3s ease-out;
+}
+
+.controls {
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, transform 0.3s ease-out;
+}
+
+
+
+/*SomosproyaSAbemos mas*/
+
+#somos-proya{
+    background-color: var(--hvr3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.738), rgba(255, 255, 255, 0.777)), url('img/DN-SN-82-09531.jpg'); 
+    object-fit: cover;
+}
+
+#somos-proya .container2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+ 
+}
+
+#somos-proya h2{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    color: var(--hvr1);
+
+}
+
+
+#somos-proya .texto{
+    width: 50%;
+    max-width: 600px;
+    padding-left: 30px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: var(--parra);
+}
+
+
+
+
+#somos-proya .img-container{
+    background-image: url(img/Escudo_de_la_Armada_Bolivariana.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+#somos-proya .img-container {
+    animation:  fadeInDown 4s ease-out,bounce 5s ease infinite ;
+}
+
+
+
+.color-acento{
+    color: var(--btm);
+}
+
+.color-acento2{
+    color: var(--hvr1);
+}
+
+
+.container-info{
+    background-color: var(--b);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 2rem;
+    z-index: 1;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.907), rgba(113, 113, 113, 0.162));
+    object-fit: cover;
+}
+
+
+.container-info .container2{
+
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+ 
+}
+
+.container-info h2{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    color: var(--hvr1);
+    margin-top: 20PX;
+}
+
+/* Definimos los fotogramas clave */
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Aplicamos la animación al h2 */
+  .container-info h2 {
+    animation: fadeInDown 15s ease-out;
+  }
+  
+
+
+
+.container-info .texto2{
+    width: 50%;
+    max-width: 600px;
+    padding-left: 30px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: var(--parra);
+}
+
+.container-info .texto2 .raya{
+    border-bottom: 3px solid var(--btm);
+    width: 300px;
+    margin-top: 20px;
+
+}
+
+.container-info .texto2 .raya2{
+    border-bottom: 3px solid var(--btm);
+    width: 180px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+/* .container-info .img-container2{
+    background-image:url(img/DN-SN-82-09531.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+} */
+
+
+.container-info .img-container2 {
+    position: relative;
+    height: 100vh;
+    width: 50%;
+    overflow: hidden;
+}
+
+.container-info .img-container2 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+
+#tercera {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to top, rgba(212, 211, 211, 0.842), rgb(255, 255, 255)), url('img/0400.jpg');
+    object-fit: cover;
+}
+
+
+
+/* Definir la animación */
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Aplicar la animación al h2 */
+  #tercera .img-mision, .img-escudo {
+    animation: bounce 4.4s ease infinite;
+  }
+  
+
+
+
+
+#tercera .container3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px ;
+    flex-wrap: nowrap;
+    text-align: justify;
+    gap: 35px;
+}
+
+.container3 h2{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    color: var(--hvr2);
+    margin-top: 20PX;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.container3 .mision{
+    width: 50%;
+    padding-left: 40px;
+
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: var(--parra);
+    margin-right: 40px;
+}
+
+.container3 .mision .img-mision{
+    background-image: url(img/—Pngtree—venenzuela\ flag\ transparent\ watercolor\ painted_5331123.png);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+    width: 450px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container3 .escudo{
+    width: 50%;
+    align-items: center;
+    padding-right: 50px;
+    
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-weight: var(--parra);
+}
+
+.container3 .escudo .img-escudo{
+    background-image: url(img/Escudo_de_la_Armada_Bolivariana.svg.png);
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
+.container3 p{
+    background-color: #00000010;
+    height: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+ 
+    font-size: 1.2em;
+    font-weight: var(--parra);
+    text-align: justify;
+    line-height: 1.6;
+
+}
+
+
+
+/*SAbemos mas*/
+
+
+#cartas {  
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+#cartas .container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+}
+
+#cartas .carta{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px 25px;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+#cartas h2{ 
+    align-items: center;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.8em;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#cartas p{
+    text-align: center;
+}
+
+/* 
+CADENA DE MANDO */
+
+
+
+
+
+/*Cadenas tarjetas*/
+
+#nuestros-programas{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(254, 34, 10, 0.082)), url('img/Descargar\ fondos\ de\ pantalla\ Bandera\ de\ venezuela\,\ Venezuela\,\ la\ bandera\ nacional\,\ de\ seda\,\ de\ textura\,\ de\ la\ bandera\ de\ Venezuela\ libre_\ Imágenes\ fondos\ de\ descarga\ gratuita.jpeg');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+
+}
+
+#nuestros-programas h2 {
+    line-height: 1.3;
+    color: var(--btm);
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nuestros-programas h2:hover {
+    transform: scale(1.1);
+    color: var(--hvr2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+#nuestros-programas
+.carta
+ {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 850px;
+    height: 550px;
+    
+    margin: 40px;
+    border-radius: 35px;
+    border: 3px solid #ffffff8a;
+    display: flex;
+    user-select: none;
+    flex-wrap: wrap;
+}
+
+#nuestros-programas
+.carta:hover
+ {
+    border-color: var(--hvr3);
+    border: solid 4px var(--hvr3);
+    transition: ease-in-out 0.5s;
+    
+ }
+
+
+
+#nuestros-programas .programas{
+    display: flex;
+    justify-content: center;
+
+}
+
+#nuestros-programas #uno p {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+#nuestros-programas #uno:hover p {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#nuestros-programas #dos p {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#nuestros-programas #dos:hover p {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#nuestros-programas #tres p {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: justify;
+}
+
+#nuestros-programas #tres:hover p {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#nuestros-programas #cuatro p {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: justify;
+}
+
+#nuestros-programas #cuatro:hover p {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#nuestros-programas #cinco p {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: justify;
+}
+
+#nuestros-programas #cinco:hover p {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
+#nuestros-programas .carta{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-repeat: no-repeat;
+
+    background-color: rgb(50, 50, 50, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.815);
+    color: #fffffff0;
+    
+}
+
+#nuestros-programas .container h3 {   
+    text-align: center;
+    color: var(--hvr3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 2.2em;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0
+}
+
+#nuestros-programas .container p {   
+text-align: justify;
+line-height: 1.6;
+color: var(--hvr3);
+font-size: 1.2em;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(rgba(101, 59, 59, 0.858), rgba(16, 4, 4, 0.426)), url(img/Hugo-Chavez.jpg); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+   
+.carta:first-child:hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(rgba(44, 26, 26, 0.858), rgba(48, 32, 32, 0.426)), url(img/Hugo-Chavez.jpg); object-fit: cover;
+    color: white;
+    
+    
+}
+
+
+
+.carta:nth-child(2){
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(123, 60, 60, 0.508)), url(img/nicos.jpg); object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.carta:nth-child(2):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); object-fit: cover;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(69, 35, 35, 0.508)), url(img/nicos.jpg);
+    color: #ffffff;
+}
+
+.container2 .carta:nth-child(1) {
+    background-image: linear-gradient(rgba(86, 39, 29, 0.292), rgba(0, 0, 0, 0.5)), url(img/padr.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+    color: white;
+}
+
+.container2 h3{
+    margin: 20px;
+} 
+
+.container h3{
+    margin: 20px;
+} 
+
+.container2 .carta:nth-child(1):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(44, 23, 23, 0.622)), url(img/padr.jpg);
+    color: #ffffff;
+    object-fit: cover;
+}
+
+
+.container2 .carta:nth-child(2){
+    background-image: linear-gradient(rgba(24, 14, 14, 0.466), rgba(16, 15, 15, 0.508)), url(img/Captura-de-pantalla-2024-12-31-172007.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+    
+}
+
+
+
+.container2 .carta:nth-child(2):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(24, 19, 19, 0.821);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(rgba(24, 22, 22, 0.764), rgba(41, 36, 36, 0.793)), url(img/Captura-de-pantalla-2024-12-31-172007.png);
+    color: #ffffff;
+    object-fit: cover;
+}
+
+
+.container2 .carta:nth-child(3){
+    background-image: linear-gradient(rgba(92, 81, 81, 0.396), rgba(12, 23, 36, 0.508)), url(img/Comgeab-1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+    
+}
+
+
+
+.container2 .carta:nth-child(3):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.426), rgba(44, 40, 40, 0.633)), url(img/Comgeab-1.jpg);
+    color: #ffffff; object-fit: cover;
+}
+
+
+
+/* Embarcaciones */
+
+
+
+#hero-b {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 25px;
+    margin-top: 110px; /* Adjusted to move the video further up */
+}
+
+.container-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(0deg, rgba(11, 18, 17, 0.789), rgba(21, 59, 113, 0.216));
+    opacity: 0.6;
+    mix-blend-mode: overlay; /* Added blend mode for overlay effect */
+    border-radius: 25px;
+    z-index: 1;
+    margin-top: 110px; /* Adjusted to move the container further up */
+}
+
+#hero-b .container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    z-index: 2;
+    padding-top: 110px; /* Adjusted to move the container further up */
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.container-content .img3d {
+    width: 820px;
+    height: 750px;
+    background-image: url('img/barca3d.png');
+    background-size: cover;object-fit: cover;
+    position: absolute;
+    top: -5px; /* Adjusted to move the image further up */
+    right: -60px;
+    z-index: 10;
+}
+
+.container-content .img3d {
+    animation: bounce 4s ease-in-out infinite ;
+}
+
+.info-content {
+    text-align: left;
+    color: white;
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    text-shadow: #030e1cbc 0px 0px 1px;
+}
+
+#hero-b h1 {
+    z-index: 10;
+    width: 65%;
+    padding-bottom: 30px;
+    line-height: 1.3;
+    color: white;
+    font-size: 2.8em;
+}
+
+#hero-b .controls {
+    position: absolute;
+    z-index: 10;
+    top: 570px; /* Moves the button 40px higher */
+    left: 600px;
+}
+
+
+/* termina las embarcaciones hero */
+
+
+#hero2 {
+    min-height: 50vh;
+    position: relative;
+    display: flex;
+}
+
+#hero2 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#hero2 .container2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+    z-index: 2;
+}
+
+#hero2 .container-22 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: #1850c1;
+    opacity: 0.9;
+    mix-blend-mode: overlay;
+}
+
+#hero2 h3 {
+    width: 65%;
+    margin-bottom: 30px;
+    line-height: 1.3;
+    color: white;
+    text-shadow: #000000 0px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* barcos: */
+
+
+/* 
+#container-box {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#container-box h3 {
+    font-size: 2.3em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#container-box .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 100vw; 
+}
+
+#container-box .text {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    justify-content: center;
+    text-align: justify;
+}
+
+.content-img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-img .imagen {
+    width: 100%;
+}
+
+.box:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+}
+
+
+
+
+ .box:first-child:hover{
+    background-color: var(--hvr2);
+    color: aliceblue;
+    transition: 0.5s;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(2):hover{
+    background-color:var(--hvr1);
+    transition: 0.5s;
+    color: var(--hvr3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(3):hover{
+    background-color:var(--btm);
+    color: var(--hvr3);
+    transition: 0.5s;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(4):hover{
+    background-color:var(--hvr2);
+    color: var(--hvr3);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(5):hover{
+    background-color:var(--hvr1);
+    transition: 0.5s;
+    color: var(--hvr3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(6):hover{
+    background-color:var(--btm);
+    color: var(--hvr3);
+    transition: 0.5s;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(7):hover{
+    background-color:var(--hvr2);
+    color: var(--hvr3);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(8):hover{
+    background-color:var(--hvr1);
+    transition: 0.5s;
+    color: var(--hvr3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(9):hover{
+    background-color:var(--btm);
+    color: var(--hvr3);
+    transition: 0.5s;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+} */
+
+/* /eMBASCARIPNES */
+
+
+/* aviones */
+
+#hero-a {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 25px;
+    margin-top: 110px; /* Adjusted to move the video further up */
+}
+
+.container-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(0deg, rgba(11, 18, 17, 0.849), rgba(22, 100, 209, 0.842));
+    opacity: 0.6;
+    mix-blend-mode: overlay; /* Added blend mode for overlay effect */
+    border-radius: 25px;
+    z-index: 1;
+    margin-top: 110px; /* Adjusted to move the container further up */
+}
+
+#hero-a .container-a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    z-index: 2;
+    padding-top: 110px; /* Adjusted to move the container further up */
+    border-radius: 35px;
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.container-content-a .img3da {
+    width: 980px;
+    height: 700px;
+    background-image: url('img/avion3da.png');
+    background-size: cover;
+    position: absolute;
+    top: -80px; /* Adjusted to move the image further up */
+    right: -10px;
+    z-index: 10;
+}
+
+.container-content-a .img3da {
+    animation: bounce 4s ease-in-out infinite ;
+}
+
+
+
+.info-content-a {
+    text-align: left;
+    color: white;
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    margin-left: 150px;
+    text-shadow: #030e1cbc 0px 0px 1px;
+}
+
+#hero-a h1 {
+    z-index: 10;
+    width: 65%;
+    padding-bottom: 30px;
+    line-height: 1.3;
+    color: white;
+    font-size: 2.8em;
+}
+
+#hero-a .controls {
+    position: absolute;
+    z-index: 10;
+    top: 570px; /* Moves the button 40px higher */
+    left: 600px;
+}
+
+
+/* termina las embarcaciones hero */
+
+
+/* barcos: */
+
+#carrusel-bg{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(46, 118, 219, 0.499)), url(img/embarcaciones.jpg); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 670px;
+    overflow: hidden;
+}
+
+.item{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    text-align: justify;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    left: calc(47% - 110px);
+    top: 60px;
+}
+
+.bg-1:first-child{
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.107), rgba(40, 112, 214, 0.647)), url(img/F-22_Almirante_Briòn.jpg); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+.bg-1:first-child:hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/F-22_Almirante_Briòn.jpg); object-fit: cover;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+.bg-2:nth-child(2){
+    background-image: linear-gradient(0deg,  rgba(11, 18, 17, 0.107), rgba(30, 96, 188, 0.636)), url(img/Submarino_Oceánico_Tipo_U-209_S-31_Sabalo.JPG); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+.bg-2:nth-child(2):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/Submarino_Oceánico_Tipo_U-209_S-31_Sabalo.JPG); object-fit: cover;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+.bg-3:nth-child(3){
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.107), rgba(30, 90, 173, 0.666)), url(img/GC-21_Guaicamacuto.JPG);
+    background-size: cover; object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+.bg-3:nth-child(3):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(30, 89, 171, 0.216)), url(img/GC-21_Guaicamacuto.JPG);
+    color: white; object-fit: cover;
+    transition: 0.8s ease-in-out;
+}
+
+.bg-4:nth-child(4){
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.107), rgba(34, 96, 182, 0.695)), url(img/Patrullero_PC-13_Independencia_Vosper_37m._Clase_Constitución.jpg);
+    background-size: cover; object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+.bg-4:nth-child(4):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/Patrullero_PC-13_Independencia_Vosper_37m._Clase_Constitución.jpg);
+    color: white;
+    transition: 0.8s ease-in-out; object-fit: cover;
+}
+
+.bg-5:nth-child(5){
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.107), rgba(34, 93, 175, 0.671)), url(img/Patrullero_PC-16_Victoria_Vosper_37m.Clase_Federación.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; object-fit: cover;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+.bg-5:nth-child(5):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/Patrullero_PC-16_Victoria_Vosper_37m.Clase_Federación.JPG);
+    color: white;
+    transition: 0.8s ease-in-out; object-fit: cover;
+}
+
+.bg-6:nth-child(6){
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.107), rgba(35, 100, 191, 0.637)), url(img/Patrullero_Costero_PG-51_Págalo.JPG); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+.bg-6:nth-child(6):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/Patrullero_Costero_PG-51_Págalo.JPG); object-fit: cover;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+.bg-7:nth-child(7){
+    background-image: linear-gradient(0deg,  rgba(11, 18, 17, 0.107), rgba(37, 98, 182, 0.668)), url(img/AB_Los_Frailes_\(T-91\).jpg); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+.bg-7:nth-child(7):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/AB_Los_Frailes_\(T-91\).jpg); object-fit: cover;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+.bg-8:nth-child(8){
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.107), rgba(33, 89, 168, 0.634)), url(img/Buque_de_desembarque_tipo_LST_clase_Capana_-_T-63_Goajira.JPG); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+.bg-8:nth-child(8):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/Buque_de_desembarque_tipo_LST_clase_Capana_-_T-63_Goajira.JPG); object-fit: cover;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+.bg-9:nth-child(9){
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.107), rgba(22, 88, 181, 0.667)), url(img/Remolcador_de_altura_AB._Almirante_Francisco_de_Miranda_\(RA-11\)_1.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; object-fit: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+    
+}
+
+.bg-9:nth-child(9):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/Remolcador_de_altura_AB._Almirante_Francisco_de_Miranda_\(RA-11\)_1.JPG);
+    color: white; object-fit: cover;
+    transition: 0.8s ease-in-out;
+}
+
+.bg-10:nth-child(10){
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.107), rgba(22, 88, 181, 0.667)), url(img/ARV_General_Salóm_\(F-25\)_y_ARV_Mariscal_Sucre_\(F-21\)_-_1987-09855.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; object-fit: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+    
+}
+
+.bg-10:nth-child(10):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(21, 59, 113, 0.216)), url(img/ARV_General_Salóm_\(F-25\)_y_ARV_Mariscal_Sucre_\(F-21\)_-_1987-09855.jpg);
+    color: white; object-fit: cover;
+    transition: 0.8s ease-in-out;
+    
+}
+
+
+
+.item h3{
+padding-bottom: 20px;text-align: center;
+color: #ffffff;
+font-size: 2.2em;
+}
+
+
+
+#btn-left, #btn-right{
+    position: absolute;
+    top: 40%;
+    color: #f5f5f5;
+    background-color: transparent;
+    border: none;
+    left: 50px;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-left:hover,
+#btn-right:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+    color: var(--btm);
+}
+
+
+#btn-right{
+    left: unset;
+    right: 50px;
+}
+
+
+
+
+#carrusel-bg2{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.682), rgba(219, 86, 46, 0.499)), url(img/bg-2.jpeg); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 670px;
+    overflow: hidden;
+}
+
+.item{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    text-align: justify;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    left: calc(47% - 110px);
+    top: 60px;
+}
+
+#bg2:first-child{
+    background-image: linear-gradient(0deg, rgba(9, 10, 10, 0.107), rgba(93, 9, 3, 0.232)), url(img/Agusta_Bell_412EP.jpg); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+#bg2:first-child:hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.658);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.805), rgba(113, 39, 21, 0.216)), url(img/Agusta_Bell_412EP.jpg); object-fit: cover;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+#bg2:nth-child(2){
+    background-image: linear-gradient(0deg, rgba(9, 10, 10, 0.107), rgba(214, 52, 40, 0.232)), url(img/CESSNA_208B_Caravan.jpg);  object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+#bg2:nth-child(2):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.864), rgba(113, 39, 21, 0.216)), url(img/CESSNA_208B_Caravan.jpg); object-fit: cover;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+#bg2:nth-child(3){
+    background-image: linear-gradient(0deg, rgba(9, 10, 10, 0.107), rgba(214, 52, 40, 0.232)), url(img/CESSNA_U206G_STATIONAIR.jpg);  
+    background-size: cover; object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+#bg2:nth-child(3):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.878), rgba(113, 39, 21, 0.216)), url(img/CESSNA_U206G_STATIONAIR.jpg);
+    color: white; object-fit: cover;
+    transition: 0.8s ease-in-out;
+}
+
+#bg2:nth-child(4){
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.099), rgba(168, 58, 21, 0.277)), url(img/Venezuela_-_Navy_CASA_C-212-400_Aviocar.jpg);
+    background-size: cover; object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+#bg2:nth-child(4):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.878), rgba(113, 39, 21, 0.216)), url(img/Venezuela_-_Navy_CASA_C-212-400_Aviocar.jpg);
+    color: white;
+    transition: 0.8s ease-in-out; object-fit: cover;
+}
+
+
+#bg2:nth-child(5){
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.099), rgba(168, 58, 21, 0.277)), url(img/Mi-17_CCCP-17718_Paris_Air_Show_1981.jpg); object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff00;
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5s ease-in-out;
+}
+
+
+#bg2:nth-child(5):hover{
+    transform: scale(1.09);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    background-image: linear-gradient(0deg, rgba(11, 18, 17, 0.878), rgba(113, 39, 21, 0.216)), url(img/Mi-17_CCCP-17718_Paris_Air_Show_1981.jpg); object-fit: cover;
+    color: white;
+    transition: 0.8s ease-in-out;
+}
+
+
+
+
+
+.item h3{
+padding-bottom: 20px;text-align: center;
+color: #ffffff;
+font-size: 2.2em;
+}
+
+
+
+#btn-left, #btn-right{
+    position: absolute;
+    top: 40%;
+    color: #f5f5f5;
+    background-color: transparent;
+    border: none;
+    left: 50px;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-left:hover,
+#btn-right:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+    color: var(--btm);
+}
+
+
+#btn-right{
+    left: unset;
+    right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Login Section */
+.login-section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 120px 20px 45px 20px;
+    background: linear-gradient(to bottom, rgba(13, 13, 13, 0.8), rgba(22, 83, 140, 0.8));
+    font-family: poppins, sans-serif;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.login-section .container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border: 2px solid var(--btm);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 700px;
+    opacity: 0.6;
+}
+
+.login-section .container  {
+    animation:  fadeInDown 4s ease-out ;
+}
+
+.login-section .container:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: scale(1.03);
+}
+
+.login-section .container {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.login-section .container h2 {
+    font-size: 2.1rem;
+    text-align: center;
+    color: var(--btm);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.login-section h2:hover{
+    color: var(--hvr2);
+    transition: color 0.3s ease-in-out;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-section .form-group {
+   margin-bottom: 10px;
+}
+
+
+
+.login-section input {
+    position: relative;
+    margin-top: 4px;
+}
+
+.login-section label{
+    color: var(--btm);
+    font-weight: bold;
+}
+
+.login-section .form-group input {
+    width: 100%;
+    padding: 0 15px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid var(--btm);
+    border-radius: 6px;
+    outline: none;
+    font-size: 1em;
+    color: var(--btm);
+    background-color: rgba(255, 255, 255, 0.836);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-section .form-group #birth {
+font-size: 1.3em;
+    color: #7e7e7e;
+    background-color: rgba(255, 255, 255, 0.836);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-section .form-group select {
+    display: flex;
+    width: 100%;
+    padding: 0px 10px;
+    height: 53px;
+    border: 1px solid var(--btm);
+    border-radius: 6px;
+    outline: none;
+    font-size: 1em;
+    color: #7e7e7e;
+    background-color: rgba(255, 255, 255, 0.836);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-section .form-group select:focus {
+    border-color: var(--hvr2);
+    box-shadow: 0 0 5px var(--hvr2);
+}
+
+.login-section .form-group select option {
+        color: var(--btm);
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
+.login-section .column {
+    display: flex;
+    column-gap: 15px;
+}
+
+.login-section  #peso-altura {
+    column-gap: 15px;
+    padding-top: 20px;
+}
+
+.login-section :where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+   
+}
+
+.login-section .estado-box{
+    margin-left: 120px;
+}
+
+.login-section :where(.estado-option, .estado) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+
+.login-section :where(.gender-option, .gender label) {
+    cursor: pointer;
+}
+
+.login-section :where(.estado-option, .estado label) {
+    cursor: pointer;
+}
+
+
+.login-section .gender-box{
+    margin-top: 20px;
+}
+
+.login-section .estado-box{
+    margin-top: 20px;
+}
+
+.login-section .gender{
+    column-gap: 5px;
+    cursor: pointer;
+}
+
+.login-section .gender input{
+   accent-color: var(--hvr2);
+}
+
+.login-section .estado input{
+    accent-color: var(--hvr2);
+ }
+
+.login-section .gender label{
+    color: #7e7e7e;
+    font-weight: 500;
+}
+
+.login-section .estado label{
+    color: #7e7e7e;
+    font-weight: 500;
+}
+
+.login-section .estado{
+    column-gap: 5px;
+    cursor: pointer;
+}
+
+.login-section .form-group input:focus {
+    border-color: var(--hvr2);
+    box-shadow: 0 0 5px var(--hvr2);
+}
+
+.login-section button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin: 25px auto 0; /* Center horizontally */
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--btm);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100px;
+    height: 50px;
+}
+
+.login-section button:hover {
+    background-color: var(--hvr2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.8) 0.3s ease-in-out;
+    font-size: 1.4em;
+
+}
+
+.login-section button:active {
+    transform: scale(1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.gender-box h3 {
+   color: var(--btm);
+   margin: 0;
+   font-size: 1em;
+   margin-bottom: 8px;
+}
+
+.estado-box h3 {
+    color: var(--btm);
+    margin: 0;
+    font-size: 1em;
+    margin-bottom: 8px;
+ }
+ 
+
+
+
+    .login-section button {
+        width: 100%;
+        height: 50px;
+        font-size: 1.2em;
+        align-items: center;
+    }
+
+
+
+
+
+/*Responsive*/
+@media screen and (max-width: 500px){
+    .login-section .column {
+       flex-wrap: wrap;
+    }
+
+    .login-section .estado-box{
+        margin-left: 0px;
+    }
+
+}
+
+.login-section :where(.gender-option, .gender) {
+row-gap: 15px;
+}
+
+.login-section :where(.estado-option, .estado) {
+    row-gap: 15px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* esto es de saberMas */
+.title h2{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.title .title4 {
+    color: var(--hvr1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#people {  
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to top, #ffffffdd, #d3d0d0);
+    display: flex;
+    width: 100vw;
+    height: 90%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+#people .container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0 25px;
+    margin-bottom: 120px;
+
+}
+
+#people .persona{
+    
+    border-radius: 10px;
+    margin: 10px 25px;
+
+    margin: 40px 0;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#people h3{
+    align-items: center;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5em;
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(57, 57, 57);
+}
+
+#people p{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#people .img-img{
+border-radius: 100%;
+background-color: aqua;
+width: 200px;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+flex-direction: column;
+
+}
+
+#people .img-img:hover{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#people .persona:hover h3 {
+
+    transition: color 0.5s ease-in-out;
+    font-size: 1.8em;
+    transition: 0.5s ease-in-out;
+
+    
+}
+#people .persona:nth-child(1):hover h3 {
+    color: var(--btm);
+}
+
+#people .persona:nth-child(2):hover h3 {
+    color: var(--hvr1);
+}
+
+#people .persona:nth-child(3):hover h3 {
+    color: var(--btm);
+}
+
+#people .persona:nth-child(5):hover h3 {
+    color: var(--btm);
+}
+
+#people .persona:nth-child(4):hover h3 {
+    color: var(--hvr1);
+}
+
+#people .persona:nth-child(6):hover h3 {
+    color: var(--btm);
+}
+
+
+
+#people .container:hover> :not(:hover){
+    filter: blur(4px);
+    opacity: 0.5;
+}
+
+.title:hover h2 {
+    transition: color 0.5s ease-in-out;
+    font-size: 3em;
+    transition: 0.5s ease-in-out;
+    white-space: nowrap;
+    color: var(--btm);
+}
+
+
+#hero2 {
+    min-height: 50vh;
+    position: relative;
+    display: flex;
+}
+
+#hero2 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#hero2 .container2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+    z-index: 2;
+}
+
+#hero2 .container-22 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: #000000;
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+}
+
+#hero2 h3 {
+    width: 65%;
+    margin-bottom: 30px;
+    line-height: 1.3;
+    color: white;
+    text-shadow: #000000 0px 0px 10px;
+}
+
+#hero2 .control2 {
+    font-size: 1.25em;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+}
+
+.control2::placeholder {
+    color: #858789;
+}
+
+.control2:hover {
+    color: rgb(11, 94, 215);
+}
+
+.control2:focus {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 113, 237);
+}
+
+.control2:focus::placeholder {
+    color: rgb(30, 113, 237);
+}
+
+.controls2 {
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: var(--hvr3);
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;   
+}
+
+
+footer .container ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content:space-around;
+}
+
+footer .container ul li {
+    font-size: 1em;
+    
+}
+
+footer .container ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+footer .container ul li a:hover {
+    color: #66ccff;
+}
+
+footer .container .social-icons {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    margin-right: 0;
+    padding-right: 0;
+    align-items:center ;
+    justify-content: center;
+}
+
+footer .container .social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+footer .container .social-icons a:hover {
+    color: #66ccff;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+
+    footer {
+        width: 100%;
+    }
+
+    footer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+
+    footer .container ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    footer .container ul li a:hover {
+        color: var(--btm);
+    }
+
+    footer .container .social-icons {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    footer .container .social-icons a {
+        color: #fff;
+        font-size: 1.5em;
+        transition: color 0.3s ease;
+    }
+
+    footer .container .social-icons a:hover {
+        color: #66ccff;
+    }
+}
+
+
+
+
+
+.ok{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-coLor: #4e6;
+    color: #fff;
+    padding-top: 30px;
+}
+.bad{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff;
+    padding-top: 30px;
+}
