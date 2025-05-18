@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/comandante.png">
+    <title>Armada Bolivariana - Crear Cuenta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    
+
+    <div class="container">
+        <div class="card">
+            <!-- Register Form -->
+            <div id="registerForm" class="form-container">
+                <div class="form-header">
+                    <h2>Crear una cuenta</h2>
+                    <p>Regístrate para empezar</p>
+                </div>
+                
+                <form id="registerFormElement">
+                    <div class="form-group">
+                        <label for="firstName">Nombre</label>
+                        <input type="text" id="firstName" class="input-field" placeholder="John" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Apellido</label>
+                        <input type="text" id="lastName" class="input-field" placeholder="Doe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerEmail">Dirección de correo electrónico</label>
+                        <input type="email" id="registerEmail" class="input-field" placeholder="Introduce tu @email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerPassword">Contraseña</label>
+                        <input type="password" id="registerPassword" class="input-field" placeholder="••••••••" required>
+                        <p class="password-info">La contraseña debe tener al menos 8 caracteres</p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirmar contraseña</label>
+                        <input type="password" id="confirmPassword" class="input-field" placeholder="••••••••" required>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input id="terms" type="checkbox" required>
+                        <label for="terms">Acepto la <a href="#">Condiciones de uso</a> y <a href="#">Política de privacidad</a></label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary">
+                            Crear cuenta
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="form-footer">
+                    <p>¿Ya tiene una cuenta? <a href="login.html">Iniciar sesión</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <video muted autoplay loop>
+                <source src="img/248124_small.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Success Message -->
+        <div id="successMessage" class="hidden success-message" role="alert">
+            <p>¡Éxito!</p>
+            <p id="successText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

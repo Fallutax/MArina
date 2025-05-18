@@ -93,6 +93,41 @@ prev.onclick = function(){
 
 
 
+const correo = document.getElementById("correo").value.trim();
+console.log(typeof correo);
+if (!correo.endsWith("@gmail.com")) {  Swal.fire({
+            title: "Por favor, ingresa los datos correctamente.",
+            text: "Recuerda revisar los datos antes de enviarlo.",
+            showClass: {
+              popup: `
+                animate__animated
+                animate__fadeInUp
+                animate__faster
+              `
+            },
+            hideClass: {
+              popup: `
+                animate__animated
+                animate__fadeOutDown
+                animate__faster
+              `
+            }
+          });
+    back[0].style.background = "linear-gradient(to bottom, rgba(13, 13, 13, 0.8), rgba(140, 59, 22, 0.8)), url('/img/login-background.jpg')";
+        // Prevenir el envío del formulario
+        event.preventDefault();
+        
+    } else {
+      // Aquí podrías enviar el formulario, por ejemplo:
+    console.log("Correo válido:", correo);
+    back[0].style.background = "linear-gradient(to bottom, rgba(13, 13, 13, 0.8), rgba(140, 59, 22, 0.8)), url('/img/login-background.jpg')";
+        // Prevenir el envío del formulario
+    
+   
+    }
+    
+
+
 
 
 
@@ -180,5 +215,3 @@ prev.onclick = function(){
     // }
 
 
-
-  
