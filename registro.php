@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="img/comandante.png">
-    <title>Armada Bolivariana - Crear Cuenta</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.min.css">
+    <title>Login de Usuario - Crear Cuenta</title>
+    <link rel="stylesheet" href="stylesR.css">
 </head>
 
 <body>
 
     
+<header>
+        <div class="container1">
+            <img class="logo1" src="img/escudo.png" alt="">
+            <p class="logo">Armada Bolivariana</p>
+        </div>
+
+        <nav class="container1">
+            <form action="index.php" method="post">
+                <button>Inicio</button>
+            </form>
+            <form action="embarcaciones.php" method="post">
+                <button>Embarcaciones</button>
+            </form>
+            <form action="aviones.php" method="post">
+                <button>Aeronaves</button>
+            </form>
+            <form action="login.php" method="post">
+                <button>Reclutamiento</button>
+            </form>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+<section class="login-section">
+
 
     <div class="container">
         <div class="card">
@@ -21,30 +53,30 @@
                     <p>Regístrate para empezar</p>
                 </div>
                 
-                <form id="registerFormElement">
+                <form id="registerFormElement" method="post" action="login.php">
                     <div class="form-group">
                         <label for="firstName">Nombre</label>
-                        <input type="text" id="firstName" class="input-field" placeholder="John" required>
+                        <input type="text" id="firstName" class="input-field" placeholder="Introduce tu Nombre" required maxlength="20" minlength="3">
                     </div>
                     <div class="form-group">
                         <label for="lastName">Apellido</label>
-                        <input type="text" id="lastName" class="input-field" placeholder="Doe" required>
+                        <input type="text" id="lastName" class="input-field" placeholder="Introduce tu Apellido" required maxlength="20" minlength="3">
                     </div>
                     
                     <div class="form-group">
                         <label for="registerEmail">Dirección de correo electrónico</label>
-                        <input type="email" id="registerEmail" class="input-field" placeholder="Introduce tu @email.com" required>
+                        <input type="email" id="registerEmail" class="input-field" placeholder="Introduce tu @email.com" required maxlength="40" minlength="5">
                     </div>
                     
                     <div class="form-group">
                         <label for="registerPassword">Contraseña</label>
-                        <input type="password" id="registerPassword" class="input-field" placeholder="••••••••" required>
+                        <input type="password" id="registerPassword" class="input-field" placeholder="••••••••" required maxlength="12" minlength="8">
                         <p class="password-info">La contraseña debe tener al menos 8 caracteres</p>
                     </div>
                     
                     <div class="form-group">
                         <label for="confirmPassword">Confirmar contraseña</label>
-                        <input type="password" id="confirmPassword" class="input-field" placeholder="••••••••" required>
+                        <input type="password" id="confirmPassword" class="input-field" placeholder="••••••••" required maxlength="12" minlength="8">
                     </div>
                     
                     <div class="form-group checkbox-group">
@@ -60,7 +92,7 @@
                 </form>
                 
                 <div class="form-footer">
-                    <p>¿Ya tiene una cuenta? <a href="login.html">Iniciar sesión</a></p>
+                    <p>¿Ya tiene una cuenta? <a href="login.php">Iniciar sesión</a></p>
                 </div>
             </div>
         </div>
@@ -71,13 +103,9 @@
             </video>
         </div>
 
-        <!-- Success Message -->
-        <div id="successMessage" class="hidden success-message" role="alert">
-            <p>¡Éxito!</p>
-            <p id="successText"></p>
-        </div>
+    
     </div>
-
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

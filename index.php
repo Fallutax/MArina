@@ -21,14 +21,14 @@
             <form action="index.php" method="post">
                 <button>Inicio</button>
             </form>
-            <form action="reclutamiento.php" method="post">
-                <button>Reclutamiento</button>
-            </form>
             <form action="embarcaciones.php" method="post">
                 <button>Embarcaciones</button>
             </form>
             <form action="aviones.php" method="post">
                 <button>Aeronaves</button>
+            </form>
+            <form action="login.php" method="post">
+                <button>Reclutamiento</button>
             </form>
         </nav>
     </header>

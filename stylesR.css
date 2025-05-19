@@ -15,6 +15,7 @@
     box-sizing: border-box;
 }
 
+
 h1{font-size: 2.5em;}
 h2{font-size: 2.2em;}
 h3{font-size: 1.6em;}
@@ -22,6 +23,7 @@ p{font-size: 1.25em;}
 ul{list-style: none;}
 li{font-size: 1.25em;}
     
+
 
 header button{
     font-size: 1.20em;
@@ -134,33 +136,41 @@ header .logo1{
 
 
 
-    .login-section {
-        font-family: 'Poppins', sans-serif;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-        
 
 
+
+
+
+
+
+
+
+.login-section {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     width: 100vw;
-    height: 100vh;
     margin: 0 auto;
     background: linear-gradient(to bottom, rgba(19, 46, 94, 0.8), rgba(140, 51, 22, 0.8));
+    position: relative;
+    
 }
 
 .container .card{
     width: 100%;
-    max-width: 400px;
-    padding: 60px 20px;
-    
+    max-width: 420px;
+    padding: 20px 40px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     
 }
 
@@ -239,7 +249,7 @@ a:hover {
 .btn-primary {
     width: 100%;
     padding: 12px;
-    background: var(--btm);
+    background: var(--hvr2);
     color: white;
     font-weight: 500;
     border: none;

@@ -106,3 +106,29 @@ document.addEventListener('DOMContentLoaded', function() {
         successMessage.classList.remove('hidden');
     });
 });
+
+const form = event.target;
+const formData = new FormData(form);
+fetch('reclutamiento.php', {
+    method: 'POST',
+    body: formData
+})
+.then(response => {
+    if (!response.ok) {
+        throw new Error('Error en la solicitud');
+    }
+    return response.text();
+})
+.then(data => {
+    const messageArea = document.getElementById('messageArea');
+    messageArea.textContent = 'Formulario enviado con éxito.';
+    messageArea.classList.remove('error');
+    // Optionally show server response:
+    // messageArea.textContent += ' ' + data;
+})
+.catch(error => {
+    const messageArea = document.getElementById('messageArea');
+    messageArea.textContent = 'Error al enviar el formulario.';
+    messageArea.classList.add('error');
+    console.error('Error:', error);
+});
