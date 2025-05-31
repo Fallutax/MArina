@@ -35,22 +35,18 @@
 
 
 
-
+<!-- 
     <section class="login-section">
     <div class="container">
         <div class="card">
-            <!-- Login Form -->
-            <div id="loginForm" class="form-container">
+         
+                <form id="loginFormElement" method="POST" action="">   <div id="loginForm" class="form-container">
                 <div class="form-header">
                     <h2>Bienvenido otra vez</h2>
                     <p>Acceda a su cuenta</p>
-                    <?php
-                    include ("conexion.php");
-                    include ("controlador.php");
-                    ?>
+               
                 </div>
-                
-                <form id="loginFormElement" method="POST" action="">
+                                                                                                                                                                                                                                                                                                                                                                                                                  
                     <div class="form-group">
                         <label for="loginEmail">Dirección de correo electrónico</label>
                         <input type="email" id="loginEmail" class="input-field" placeholder="Introduce tu @email.com" name="emailUsuario">
@@ -86,7 +82,7 @@
         </div>
         </section>
 
-
+ -->
 
 
 
