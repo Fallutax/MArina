@@ -53,7 +53,7 @@
                     <p>Regístrate para empezar</p>
                 </div>
                 
-                <form id="registerFormElement" method="post" action="login.php">
+                <form id="registerFormElement" method="POST" action="procesar_registro.php">
                     <div class="form-group">
                         <label for="firstName">Nombre</label>
                         <input type="text" id="firstName" class="input-field" placeholder="Introduce tu Nombre" required maxlength="20" minlength="3">
@@ -106,6 +106,14 @@
     
     </div>
     </section>
+
+
+
+    
+    
+
+
+
     <script src="script.js"></script>
 </body>
 </html>

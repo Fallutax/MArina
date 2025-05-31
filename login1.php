@@ -44,24 +44,28 @@
                 <div class="form-header">
                     <h2>Bienvenido otra vez</h2>
                     <p>Acceda a su cuenta</p>
+                    <?php
+                    include ("conexion.php");
+                    include ("controlador.php");
+                    ?>
                 </div>
                 
-                <form id="loginFormElement" method="POST" action="reclutamiento.php">
+                <form id="loginFormElement" method="POST" action="">
                     <div class="form-group">
                         <label for="loginEmail">Dirección de correo electrónico</label>
-                        <input type="email" id="loginEmail" class="input-field" placeholder="Introduce tu @email.com" required maxlength="40" minlength="5">
+                        <input type="email" id="loginEmail" class="input-field" placeholder="Introduce tu @email.com" name="emailUsuario">
                     </div>
                     
                     <div class="form-group">
                         <div class="form-group-header">
                             <label for="loginPassword">Contraseña</label>
                         </div>
-                        <input type="password" id="loginPassword" class="input-field" placeholder="••••••••" required maxlength="12" minlength="8">
+                        <input type="password" id="loginPassword" class="input-field" placeholder="••••••••"  name="passwordUsuario">
               
                     </div>
                     
                     <div class="form-group">
-                        <button type="submit" class="btn-primary">
+                        <button type="submit" class="btn-primary" name="btningresar">
                             Ingresar
                         </button>
                     </div>
@@ -83,18 +87,7 @@
         </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js"></script>
-    <script>
-        window.onload = function() {
-            Swal.fire({
-                title: '¡Bienvenido!',
-                text: 'Para ingresar al formulario deberas ingresar tu Usuario🪖',
-                icon: 'info',
-                confirmButtonText: 'Aceptar'
-            });
-        };
-    </script>
-    <script src="script.js"></script>
+
 
 
 </body>
